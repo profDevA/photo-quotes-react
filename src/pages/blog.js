@@ -63,7 +63,7 @@ const Blog = () => {
                     <div className="row">
                         <div className="col-xl-4 col-md-6">
                             <h2 className="big-lettering">Blog</h2>
-                            <h1 className="mt30 main-title">About Photography</h1>
+                            <h2 className="mt30 main-title">About Photography</h2>
                         </div>
                         {
                             articles.map(article => <Article articleTitle={article.articleImg2} articleImage={article.articleImage} articleContent={article.articleContent} />)

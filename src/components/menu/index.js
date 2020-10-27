@@ -10,6 +10,10 @@ const Menu = () => {
         { to: 'blog.html', menuTitle: 'Blog' },
     ]);
     const [activeItemNum, setActiveItemNum] = useState(4);
+
+    const highLightMenu = () => {
+
+    }
     return (
         <nav className="nav-links">
             <ul>
